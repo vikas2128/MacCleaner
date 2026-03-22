@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+build/
+*.xcuserstate
+*.xcworkspace/xcuserdata
+xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+DerivedData/
+
+# Swift Package Manager
+.build/
+.swiftpm/xcode/
+.swiftpm/configuration/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code coverage
+*.gcda
+*.gcno
+
+# SPM resolved file (keep Package.resolved if you want reproducible builds)
+# Package.resolved
